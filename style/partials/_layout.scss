@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.utility-wrapper {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: $dark-blue;
+  & p {
+    margin: 0;
+  }
+}
+

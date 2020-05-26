@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FunPlace - Project 2</title>
+  <!-- Font - Roboto & Walter Turncoat -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Walter+Turncoat" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <!-- hero section -->
+  <!-- *Using the title attribute for the images in the header class which works just as well as using alt*-->
+  <header class="contact-header" title="4 children playing in the wild">
+    <div class="utility-wrapper">
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about-us">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#" class="active-page">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="menu-icon" tabindex="1"><i class="fa fa-bars" aria-hidden="true"></i><span
+          class="visually-hidden">Main menu</span></label>
+
+      <h1>Get in Touch</h1>
+    </div>
+  </header>
+
+  <main>
+    <!-- contact-section -->
+    <section class="contact-section">
+      <div class="wrapper contact-flex-container">
+        <div class="contact-info-block">
+          <nav class="social-nav">
+            <ul>
+              <li><a href="#" class="social-link"><i class="fab fa-facebook-f" aria-hidden="true"
+                    title="Facebook"></i><span class="visually-hidden">Facebook</span></a></li>
+              <li><a href="#" class="social-link"><i class="fab fa-instagram" aria-hidden="true"
+                    title="Instagram"></i><span class="visually-hidden">Instagram</span></a></li>
+              <li><a href="#" class="social-link"><i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i><span
+                    class="visually-hidden">Twitter</span></a></li>
+              <li><a href="#" class="social-link"><i class="fab fa-whatsapp" aria-hidden="true"
+                    title="Whatsapp"></i><span class="visually-hidden">Whatsapp</span></a></li>
+            </ul>
+          </nav>
+          <p><a href="mailto:info@email.com">info@email.com</a></p>
+          <p><a href="tel:123-456-7890">123-456-7890</a></p>
+          <p>123 Queen Street West, Unit 10</p>
+          <p>Toronto, Ontario</p>
+          <p>M5V2D5</p>
+        </div>
+
+        <!-- Inputs are inside of the form elements with labels to be accessible -->
+        <form action="" class="contact-form">
+          <div class="form-input-block">
+            <input type="text" name="name" id="name" title="Click here and enter your name" required>
+            <label for="name" title="Click here and enter your name">Name</label>
+          </div>
+
+          <div class="form-input-block">
+            <input type="email" name="email" id="email" title="Click here and enter your email address" required>
+            <label for="email" title="Click here and enter your email address">Email address</label>
+          </div>
+
+          <div class="form-message-block">
+            <textarea name="message" id="message" cols="30" rows="10" title="Click here and enter your message"
+              required></textarea>
+            <label for="message" title="Click here and enter your message">Message</label>
+          </div>
+
+          <button class="form-submit-button" title="Click here and submit your message">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="center">Copyright © 2019 HackerYou</p>
+  </footer>
+</body>
+
+</html>

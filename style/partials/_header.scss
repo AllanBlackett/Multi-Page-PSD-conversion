@@ -1,0 +1,77 @@
+header {
+  position: relative;
+  margin: 0;
+  padding: 50px 0 0;
+}
+
+// In Index.html, I'm using the title attribute for the images 
+// in the header class which works just as well as using alt
+
+.main-header {
+  height: 55rem;
+  padding-bottom: 15rem;
+  @include header-background("../assets/home-header.jpg");
+  box-shadow: inset 0px -10vw 0px 0px $deep-turquoise;
+}
+
+.blog-header {
+  padding-bottom: 10rem;
+  @include header-background("../assets/blog-header.jpg");
+}
+
+.contact-header {
+  padding-bottom: 10rem;
+  @include header-background("../assets/contact-header.jpg");
+}
+
+.main-nav {
+  z-index: 50;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.main-nav a {
+  padding: 8px 0;
+  margin: 10px 50px 0 0;
+  &:hover, &:focus, &:active {
+    text-decoration: none;
+    border-bottom: 3px solid $pale-grey;
+  }
+}
+
+.current-page {
+  border-bottom: 3px solid $bright-aqua;
+}
+
+.header-flex-container {
+  width: 100%;
+  max-width: 2200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-image-box {
+  flex-basis: 100%;
+  align-self: flex-end;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0px;
+  width: 40rem;
+}
