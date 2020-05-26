@@ -9,14 +9,23 @@ This project is meant to emulate a common task I would normally perform as a fro
 ## Project Requirement
 
 -Site is responsive and uses media queries
+
 -Flexbox is used
+
 -Sass variables are used
+
 -All images considered content have descriptive alt text
+
 -Form is accessible
+
 -Mobile view provides good user experience
+
 -Files, folders & naming conventions followed
+
 -Project is organized using Sass partials (minimum 2)
+
 -Project represents the provided design well
+
 -Navigation should link to other pages made for the project
 
 ## Authors
