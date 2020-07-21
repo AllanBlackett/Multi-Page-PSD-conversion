@@ -2,7 +2,7 @@
 
 Juno College project 2. My objective is to show that I can take a multi-page PSD and convert it into a functional, responsive website.
 
-###View Website Here: https://multi-page-psd-conversion.herokuapp.com/ 
+##### View Website Here: https://multi-page-psd-conversion.herokuapp.com/ 
 
 ## Project Description
 
