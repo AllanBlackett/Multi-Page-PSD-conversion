@@ -1,4 +1,4 @@
-# Project 2 (multi-page PSD conversion)
+# Multi-Page PSD Conversion - Project 2 
 
 Juno College project 2. My objective is to show that I can take a multi-page PSD and convert it into a functional, responsive website.
 
